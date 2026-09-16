@@ -1,5 +1,5 @@
-streamlit>=1.38
-rdkit>=2024.3.5
+streamlit==1.63.0
+rdkit==2026.3.6
 streamlit-ketcher
 numpy
 pandas
