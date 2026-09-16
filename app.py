@@ -152,7 +152,7 @@ def use_drawn_smiles(drawn_smiles: str) -> None:
     st.session_state["smiles_input"] = drawn_smiles
 
 
-st.title("🧬 TMEM120A Candidate Predictor")
+st.title("TMEM120A Candidate Predictor")
 st.caption("An AI-powered molecular screening tool for TMEM120A")
 
 target_name = "TMEM120A"
