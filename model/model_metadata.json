@@ -1,0 +1,52 @@
+{
+  "folder_name": "PLS9_FINAL_FOR_WEBTOOLS",
+  "actual_model_name": "OpenPLS_RDKit_Mordred_PLS6",
+  "algorithm": "PLSRegression",
+  "n_components": 6,
+  "training_compounds": 607,
+  "independent_test_compounds": 202,
+  "original_dataset_size": 809,
+  "descriptor_sources": [
+    "RDKit 2D",
+    "Mordred 2D"
+  ],
+  "raw_rdkit_descriptor_count": 217,
+  "clean_rdkit_descriptor_count": 183,
+  "raw_mordred_descriptor_count": 1613,
+  "clean_mordred_descriptor_count": 1343,
+  "final_descriptor_count": 931,
+  "mordred_missingness_threshold": 0.2,
+  "correlation_filter_threshold": 0.98,
+  "test_metrics": {
+    "R2": 0.5592,
+    "RMSE": 0.6328,
+    "MAE": 0.5055,
+    "Pearson": 0.7484,
+    "Spearman": 0.6643
+  },
+  "PLS47_reference_metrics": {
+    "R2": 0.67948,
+    "RMSE": 0.53959,
+    "MAE": 0.42899
+  },
+  "category_thresholds_kcal_mol": {
+    "VERY_GOOD": "< -6.45",
+    "GOOD": "-6.45 to < -5.70",
+    "MEDIUM": "-5.70 to < -4.945",
+    "POOR": ">= -4.945"
+  },
+  "preliminary_latent_AD": {
+    "method": "PLS latent-space leverage",
+    "components": 6,
+    "n_train": 607,
+    "warning_leverage_formula": "3*(A+1)/n",
+    "warning_leverage": 0.03459637561779242,
+    "status": "assets saved; final AD calibration pending"
+  },
+  "structural_AD": {
+    "fingerprint": "Morgan ECFP4",
+    "radius": 2,
+    "bits": 2048,
+    "status": "training fingerprints saved; NN threshold pending"
+  }
+}

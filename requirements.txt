@@ -1,0 +1,9 @@
+streamlit>=1.38
+rdkit>=2024.3.5
+streamlit-ketcher
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+mordred-ojmb
