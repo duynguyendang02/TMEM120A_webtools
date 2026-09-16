@@ -13,7 +13,7 @@ from streamlit_ketcher import st_ketcher
 
 from predictor_ood import get_model_directory, predict_docking_score
 
-st.set_page_config(page_title="TMEM120A Candidate Predictor", page_icon="🧬", layout="wide")
+st.set_page_config(page_title="TMEM120A Candidate Predictor", layout="wide")
 
 
 @st.cache_resource
